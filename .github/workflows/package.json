@@ -1,0 +1,14 @@
+{
+  "name": "gitactionsphase1",
+  "version": "1.0.0",
+  "description": "GitHub Actions Phase 1 Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "build": "echo \"Build process\"",
+    "lint": "echo \"Linting code\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
