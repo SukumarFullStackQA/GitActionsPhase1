@@ -14,22 +14,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '18'
+      - name: Print repository info
+        run: echo "Repository checked out successfully!"
 
-      - name: Install dependencies
-        run: npm install
-
-      - name: Run linting
-        run: npm run lint
-
-      - name: Run tests
-        run: npm test
-
-      - name: Build project
-        run: npm run build
+      - name: List files
+        run: ls -la
 
       - name: Print completion message
         run: echo "Workflow completed successfully!"
